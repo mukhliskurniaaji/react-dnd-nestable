@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import pure from 'recompose/pure';
-
+require('./mobileMode.css');
 import Item from './Item';
 
 function getDepth(item, childrenProperty) {
