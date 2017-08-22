@@ -5,7 +5,7 @@ import pure from 'recompose/pure';
 import compose from 'recompose/compose';
 import { DragLayer } from 'react-dnd';
 import itemTypes from './itemTypes';
-
+require('./mobileMode.css');
 const layerStyles = {
   position: 'fixed',
   pointerEvents: 'none',
